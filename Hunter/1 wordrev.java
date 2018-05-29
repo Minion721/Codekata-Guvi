@@ -2,7 +2,7 @@ import java.util.*;
 class wordrev{
      
      public static void main(String aa[]){
-         int n;
+         int nm;
          Scanner s=new Scanner(System.in);
          String d=s.nextLine();
          int l=d.length();
