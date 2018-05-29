@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class single{
       public static void main(String aa[]){
             int n;
-            int f=0;
+            int l=0;
              Scanner s=new Scanner(System.in);
              n=s.nextInt();
              int pp=0;
