@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class repeat{
       public static void main(String aa[]){
             int n;
-            int f=0;
+            int l=0;
              Scanner s=new Scanner(System.in);
              n=s.nextInt();
              int pp=0;
@@ -16,12 +16,12 @@ public class repeat{
              for(int i=0;i<n;i++){
                  if(a[i]==i){
                     d.add(i);
-                    f=1;
+                    l=1;
                  }
              }
          Collections.sort(d);
 
-             if(f==0){
+             if(l==0){
                  System.out.println("-1");
              }
          for(int y:d){
