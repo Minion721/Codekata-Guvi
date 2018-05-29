@@ -5,7 +5,7 @@ public class subset {
      public static void main(String aa[]){
      int n;
      int l;
-     int c=0;
+     int d=0;
      Scanner s=new Scanner(System.in);
      n=s.nextInt();
      l=s.nextInt();
@@ -20,12 +20,12 @@ public class subset {
      for(int i=0;i<n;i++){
          for(int j=0;j<l;j++){
              if(a[i]==a[j]){
-                 c=1;
+                 d=1;
                  break;
              }
          }
      }
-     if(c==1){
+     if(d==1){
          System.out.println("Yes");
      }
  else{
